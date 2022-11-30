@@ -8,18 +8,18 @@
 
 @include media-phone {
   .container {
-    min-width: 480px;
+    max-width: 510px;
   }
 }
 
 @include media-tablet {
   .container {
-    width: 704px;
+    width: 734px;
   }
 }
 
 @include media-desktop {
   .container {
-    width: 1110px;
+    width: 1140px;
   }
 }
